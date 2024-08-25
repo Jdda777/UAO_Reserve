@@ -31,6 +31,7 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
+    height: 50vh;
     justify-items: center;
     align-items: center;
     margin-bottom: 20px;
@@ -122,4 +123,24 @@ body{
     .logo-uao{
         display: block;
     }
+}
+
+
+.layout {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    padding-left: 70px;
+    background-color: #9e0b0f;
+    background-image: url("https://drive.google.com/uc?export=view&id=1IMtD6WgVntP3dTM3X0YKDVIpjGVCmHfN");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.todo{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-items: center;
 }
