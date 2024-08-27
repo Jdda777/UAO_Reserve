@@ -128,12 +128,12 @@ body{
 
 .layout {
     display: flex;
-    width: 100vw;
-    height: 80vh;
-    padding-left: 70px;
+    width: 600px;
+    height: 600px;
+    padding-left: 1000px;
     background-color: #9e0b0f;
-    background-image: url("https://drive.google.com/uc?export=view&id=1IMtD6WgVntP3dTM3X0YKDVIpjGVCmHfN");
-    background-size: cover; 
+    background-image: url('https://www.dropbox.com/scl/fi/avzo6jjgqquqvusc0gxs7/BANNER.png?rlkey=oug4lgkl5ytdnz9rysodgaila&st=ahdepdt8&dl=1');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
