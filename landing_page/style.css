@@ -148,3 +148,26 @@ body{
     top: 0;
     left: 0;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+
+    .layout {
+        display: none; /* Oculta el banner lateral en pantallas más pequeñas */
+    }
+
+    .todo {
+        padding-top: 14vh; /* Ajusta el espaciado superior para que no quede cubierto por la barra roja */
+    }
+
+    .barra-roja {
+        height: 10vh; /* Ajusta el tamaño de la barra en pantallas más pequeñas */
+    }
+
+    .logo-uao {
+        width: 80px; /* Reduce el tamaño del logo en pantallas medianas */
+    }
+}
